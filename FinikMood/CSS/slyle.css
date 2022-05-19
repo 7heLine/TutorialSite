@@ -1,0 +1,159 @@
+.body {
+	margin: auto;
+	font-family: "Montserrat", sans-serif;
+	background-color: rgb(204, 235, 255);
+}
+.main {
+	width: 840px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0 auto;
+	padding-top: 75px;
+}
+
+/* Main navigation */
+
+.main-logo {
+	/* background-color: #e3fc74; */
+	padding-left: 25px;
+	text-align: left;
+	font-size: 38px;
+	font-family: "Smooch", cursive;
+}
+.nav-style {
+	display: flex;
+	position: fixed;
+	width: 100%;
+	font-family: "Montserrat Alternates", sans-serif;
+	font-size: 20px;
+	font-weight: 900;
+	background-color: rgb(113, 255, 210);
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.nav {
+	margin: auto;
+	display: flex;
+	width: 750px;
+}
+.home-style,
+.taste-style,
+.price-style,
+.review-stile {
+	box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.2);
+	padding: 0 30px;
+	background-color: rgb(0, 255, 149);
+}
+
+.home,
+.taste,
+.price,
+.review {
+	margin: 15px auto;
+}
+.home-page,
+.taste-page,
+.price-page,
+.review-page {
+	text-decoration: none;
+	color: black;
+}
+
+/* END Main navigation */
+
+/*  MAIN STYLE  */
+
+.welcome {
+	font-weight: 900;
+	font-size: 40px;
+	text-align: center;
+}
+.finikmood {
+	color: #e3fc74;
+	font-size: 75px;
+	font-family: "Permanent Marker", cursive;
+}
+.title-page {
+	font-family: "Montserrat Alternates", sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+/* TASTE MAIN STYLE */
+
+.images:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.blueberry,
+.chocolate {
+	display: flex;
+	float: left;
+}
+.coconut,
+.cherry {
+	display: flex;
+	float: left;
+}
+.apple,
+.raspberry {
+	display: flex;
+	float: right;
+}
+
+.blueberry,
+.chocolate,
+.coconut,
+.cherry,
+.apple,
+.raspberry {
+	padding: 10px;
+}
+
+/* END TASTE MAIN STYLE */
+
+/* PRICE STYLE */
+
+.delivery-title {
+	text-align: center;
+}
+.delivery-method {
+	margin-left: 60px;
+	text-align: left;
+}
+/* .method-item {
+    text-align: center;
+} */
+
+/* FOOTER STYLE */
+
+.footer {
+	margin-top: 15px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	font-family: "Gloria Hallelujah", cursive;
+	font-weight: bold;
+	background-color: rgb(113, 255, 210);
+	box-shadow: 5px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* SOCIAL NETWORKS */
+
+.social-networks {
+}
+
+/* INSTAGRAM */
+
+.instagram {
+	display: flex;
+	padding: 15px 0;
+}
+.instagram-item {
+	color: chocolate;
+	text-decoration: none;
+}
+.instagram-icon {
+	padding-left: 10px;
+}
