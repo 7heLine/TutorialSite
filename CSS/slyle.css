@@ -15,14 +15,13 @@
 /* Main navigation */
 
 .main-logo {
+	position: fixed;
 	padding: 0 25px;
-
 	font-size: 38px;
 	font-family: "Smooch", cursive;
-	position: fixed;
 }
 .nav-style {
-	/* position: fixed; */
+	position: fixed;
 	width: 100%;
 
 	background-color: rgb(113, 255, 210);
@@ -39,7 +38,8 @@
 .home-style,
 .taste-style,
 .price-style,
-.review-stile {
+.gallery-style,
+.review-style {
 	box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.2);
 	padding: 0 30px;
 	background-color: rgb(0, 255, 149);
@@ -48,12 +48,14 @@
 .home,
 .taste,
 .price,
+.gallery,
 .review {
 	margin: 15px 15px;
 }
 .home-page,
 .taste-page,
 .price-page,
+.gallery-page,
 .review-page {
 	text-decoration: none;
 	color: black;
@@ -125,6 +127,16 @@
 /* .method-item {
     text-align: center;
 } */
+
+/* GALLERY MAIN STYLE */
+
+.instagram-posts {
+	/* display: flex; */
+	flex-wrap: wrap;
+}
+.post {
+	width: 45%;
+}
 
 /* FOOTER STYLE */
 
