@@ -22,7 +22,7 @@
 	position: fixed;
 }
 .nav-style {
-	position: fixed;
+	/* position: fixed; */
 	width: 100%;
 
 	background-color: rgb(113, 255, 210);
