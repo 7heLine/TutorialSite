@@ -131,7 +131,8 @@
 /* GALLERY MAIN STYLE */
 
 .instagram-posts {
-	/* display: flex; */
+	display: flex;
+	justify-content: space-around;
 	flex-wrap: wrap;
 }
 .post {
@@ -151,9 +152,6 @@
 }
 
 /* SOCIAL NETWORKS */
-
-.social-networks {
-}
 
 /* INSTAGRAM */
 
