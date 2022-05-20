@@ -16,25 +16,26 @@
 
 .main-logo {
 	padding: 0 25px;
-	text-align: left;
+
 	font-size: 38px;
 	font-family: "Smooch", cursive;
 	position: fixed;
-	clear: both;
 }
 .nav-style {
 	position: fixed;
 	width: 100%;
-	font-family: "Montserrat Alternates", sans-serif;
-	font-size: 20px;
-	font-weight: 900;
+
 	background-color: rgb(113, 255, 210);
 	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
 }
 .nav {
+	font-family: "Montserrat Alternates", sans-serif;
+	font-size: 20px;
+	font-weight: 900;
 	display: flex;
 	justify-content: center;
 }
+
 .home-style,
 .taste-style,
 .price-style,
